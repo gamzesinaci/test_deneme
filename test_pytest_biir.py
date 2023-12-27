@@ -61,3 +61,7 @@ class Test:
         addToCart.click()
         remove = WebDriverWait(self.driver,5).until(ec.visibility_of_element_located((By.XPATH,"//*[@id='remove-test.allthethings()-t-shirt-(red)']")))
         assert remove.text == "Remove"  
+    
+    
+
+        
